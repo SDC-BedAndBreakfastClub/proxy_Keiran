@@ -13,6 +13,21 @@
 }
 
 .navigation {
+  display: flex;
   height: 80px;
   width: 100%;
+}
+
+.btnContainer {
+  display: flex;
+}
+
+.btn {
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+}
+
+.btn:hover {
+  border-bottom: 2px solid rgb(118, 118, 118);
 }
