@@ -1,0 +1,8 @@
+node_modules
+.eslintrc.js
+.gitignore
+.nvmrc
+Dockerfile
+package-lock.json
+README.md 
+STYLE-GUIDE.md
