@@ -28,5 +28,5 @@ app.get('/rooms/:id', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log('Proxy Server listening on port 3000');
+  console.log(`Proxy server listening on port ${port}`);
 });
