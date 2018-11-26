@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/BedandBreakfastClub/airbnb-clone-photo-module
-  - https://github.com/BedandBreakfastClub/airbnb-clone-booking-module
-  - https://github.com/BedandBreakfastClub/airbnb-clone-reviews-module
-  - https://github.com/BedandBreakfastClub/airbnb-clone-similar-listings-module
+  - https://github.com/SDC-BedAndBreakfastClub/photos_module
+  - https://github.com/SDC-BedAndBreakfastClub/airbnb-clone-booking-module
+  - https://github.com/SDC-BedAndBreakfastClub/Review_Module_By_Han_Linaung
+  - https://github.com/SDC-BedAndBreakfastClub/airbnb-clone-similar-listings-module
 
 ## Table of Contents
 

@@ -1,8 +1,8 @@
 {
-  "name": "proxy-server-josh",
+  "name": "proxy-server-keiran",
   "version": "1.0.0",
-  "description": "Airbnb Clone Proxy Server",
-  "author": "Joshua Elder (jcelder88@gmail.com)",
+  "description": "Airbnb Clone Back-End Proxy Server",
+  "author": "Keiran Stockley (keirans@gmail.com)",
   "license": "None",
   "engines": {
     "node": ">=8.12.0"
