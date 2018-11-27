@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
@@ -10,7 +11,7 @@ app.use(express.static('public'));
 
 app.get('/rooms/:id', (req, res) => {
   const options = {
-    root: path.join(__dirname,'/../' ,'/public/'),
+    root: path.join(__dirname, '/../', '/public/'),
     dotfiles: 'deny',
     headers: {
       'x-timestamp': Date.now(),
