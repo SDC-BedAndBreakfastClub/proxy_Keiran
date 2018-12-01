@@ -28,6 +28,15 @@ app.get('/rooms/:id', (req, res) => {
   });
 });
 
+app.get('/loaderio-8ed1de04ae04b03be3d6d03f016317cf/', (req, res) => {
+  const filePath = path.resolve(__dirname, '../public/loader.txt');
+  res.sendFile(filePath, (err) => {
+    if (err) {
+      res.sendStatus(500);
+    }
+  });
+});
+
 app.listen(port, () => {
   console.log(`Proxy server listening on port ${port}`);
 });
